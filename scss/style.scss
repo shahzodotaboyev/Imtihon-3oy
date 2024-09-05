@@ -292,6 +292,95 @@
             }
         }
 
+        .section-6 {
+            width: 100%;
+            background-color: #0B7572;
+            height: 917px;
+            margin-top: 212px;
+            display: flex;
+            padding: 85px;
 
+            .s6-h1 {
+                font-size: 48px;
+                font-weight: 600;
+                line-height: 60px;
+                color: #fff;
+
+            }
+
+            .section6-right {
+                width: 652px;
+                height: 747px;
+                background-color: #fff;
+                border-radius: 10px;
+                padding: 32px;
+
+                .s6_right_header {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    p {
+                        font-size: 11px;
+                        font-weight: 400;
+                        line-height: 16.5px;
+                        max-width: 274px;
+                        color: #6B6B6C;
+                    }
+
+                    img {
+                        width: 103px;
+                        height: 56px;
+                    }
+                }
+
+                hr {
+                    margin: 32px 0;
+                }
+
+                .s6_information {
+                    width: 588px;
+                    height: 508px;
+
+                    table {
+                        width: 100%;
+
+                        tr {
+                            border: 1px solid rgb(0, 0, 0);
+
+                            th {
+                                background-color: #0B7572;
+                                height: 45px;
+                                color: #fff;
+                                font-size: 16px;
+                                font-weight: 600;
+
+
+                            }
+
+                            td {
+                                max-width: 112px;
+                                font-size: 14px;
+                                font-weight: 400;
+                                line-height: 18.9px;
+
+                            }
+                            td{
+                                p{
+                                    font-family: PT Sans;
+font-size: 14px;
+font-weight: 400;
+line-height: 18.9px;
+text-align: left;
+
+                                }
+                            }
+                        }
+                      
+                        
+                    }
+                }
+            }
+        }
     }
 }

@@ -178,6 +178,12 @@
                     }
                 }
             }
+            .section-6{
+              padding: 64px 30px;
+              align-items: center;      
+                   flex-direction: column; 
+              
+               }    
         }
     }
 }
@@ -336,6 +342,7 @@
                     }
                 }
             }
+         
         }
     }
 }
