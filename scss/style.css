@@ -67,7 +67,8 @@
   height: auto;
 }
 .contianer main .section-1 .section1_right .img-768px,
-.contianer main .section-1 .section1_right .img-375px {
+.contianer main .section-1 .section1_right .img-375px,
+.contianer main .section-1 .section1_right .block_375px {
   display: none;
 }
 .contianer main .section-2 {
@@ -200,17 +201,20 @@
   box-shadow: 0px 0px 10px 2px rgba(34, 60, 80, 0.2);
   border-radius: 10px;
 }
-.contianer main .section-5 .section5-cads .section5-card-text {
+.contianer main .section-5 .section5-cads .section5-card .block_768px {
+  display: none;
+}
+.contianer main .section-5 .section5-cads .section5-card .section5-card-text {
   padding: 14px 32px;
 }
-.contianer main .section-5 .section5-cads .section5-card-text h3 {
+.contianer main .section-5 .section5-cads .section5-card .section5-card-text h3 {
   font-family: Exo 2;
   font-size: 20px;
   font-weight: 600;
   line-height: 27px;
   color: #363738;
 }
-.contianer main .section-5 .section5-cads .section5-card-text p {
+.contianer main .section-5 .section5-cads .section5-card .section5-card-text p {
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -218,7 +222,7 @@
   max-width: 350px;
   margin: 16px 0 32px;
 }
-.contianer main .section-5 .section5-cads .section5-card-text b {
+.contianer main .section-5 .section5-cads .section5-card .section5-card-text b {
   font-family: Exo 2;
   font-size: 16px;
   font-weight: 600;
@@ -226,259 +230,11 @@
   position: relative;
   cursor: pointer;
 }
-.contianer main .section-5 .section5-cads .section5-card-text b:before {
+.contianer main .section-5 .section5-cads .section5-card .section5-card-text b:before {
   content: "";
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 3px;
   background-color: #FFCE50;
-}
-.contianer main .section-5 .block_375px {
-  display: none;
-}
-
-@media (max-width: 768px) {
-  .contianer {
-    width: 768px;
-    padding: 0;
-  }
-  .contianer main {
-    padding: 117px 40px;
-  }
-  .contianer main .section-1 {
-    display: flex;
-    flex-direction: column;
-    gap: 83px;
-  }
-  .contianer main .section-1 .section1_left {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .contianer main .section-1 .section1_left h1 {
-    font-size: 44px;
-    font-weight: 600;
-    line-height: 55px;
-    text-align: center;
-  }
-  .contianer main .section-1 .section1_left p {
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: center;
-    max-width: 690px;
-    margin: 49px 0 44px 0;
-  }
-  .contianer main .section-1 .section1_right {
-    width: 100%;
-  }
-  .contianer main .section-1 .section1_right img {
-    display: none;
-  }
-  .contianer main .section-1 .section1_right .img-768px {
-    display: block;
-  }
-  .contianer main .section-2 .section2-cards {
-    display: flex;
-    flex-direction: column;
-    box-shadow: none;
-    gap: 16px;
-  }
-  .contianer main .section-2 .section2-cards .section2-card {
-    width: 100%;
-    box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.6);
-    border-radius: 20px;
-    padding: 35px;
-    display: flex;
-    align-items: center;
-    gap: 32px;
-  }
-  .contianer main .section-2 .section2-cards .section2-card .section2-card-text h3 {
-    font-family: Exo 2;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 27px;
-    text-align: left;
-  }
-  .contianer main .section-2 .section2-cards .section2-card .section2-card-text p {
-    font-family: PT Sans;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-    color: #6B6B6C;
-    max-width: 394px;
-  }
-  .contianer main .section-3 {
-    margin-top: 300px;
-    display: flex;
-    align-items: start;
-    justify-content: start;
-  }
-  .contianer main .section-3 .track {
-    max-width: 729px;
-    height: 383px;
-  }
-  .contianer main .section-3 .track .intrack {
-    max-width: 600px;
-  }
-  .contianer main .section-3 .track .intrack h1 {
-    max-width: 288px;
-    font-size: 44px;
-    font-weight: 600;
-    line-height: 55px;
-  }
-  .contianer main .section-4 {
-    margin-top: 48px;
-  }
-  .contianer main .section-4 .section-4_cards {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 52px;
-  }
-  .contianer main .section-4 .section-4_cards .section-4_card {
-    max-width: 537px;
-  }
-  .contianer main .section-4 .section-4_cards .section-4_card p {
-    max-width: 400px;
-  }
-  .contianer main .section-5 {
-    max-width: 768px;
-  }
-  .contianer main .section-5 .section5-cads {
-    max-width: 690px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-  .contianer main .section-5 .section5-cads .section5-card {
-    max-width: 690px;
-    width: 100%;
-    height: 422px;
-  }
-  .contianer main .section-5 .section5-cads .section5-card img {
-    display: none;
-  }
-  .contianer main .section-5 .section5-cads .section5-card .section5-card-text h3 {
-    font-family: Exo 2;
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 27px;
-    text-align: left;
-  }
-  .contianer main .section-5 .section5-cads .section5-card .section5-card-text p {
-    max-width: 690px;
-  }
-  .contianer main .section-5 .section5-cads .section5-card .block_768px {
-    display: block;
-  }
-  .contianer main .section-5 .section5-cads .delete_768px {
-    display: none;
-  }
-}
-@media (max-width: 375px) {
-  .contianer {
-    max-width: 375px;
-  }
-  .contianer main {
-    padding: 75px 15px;
-  }
-  .contianer main .section-1 {
-    gap: 40px;
-  }
-  .contianer main .section-1 .section1_left {
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-  }
-  .contianer main .section-1 .section1_left h1 {
-    font-family: Exo 2;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 35px;
-    text-align: left;
-  }
-  .contianer main .section-1 .section1_left p {
-    text-align: left;
-    margin: 32px 0;
-  }
-  .contianer main .section-1 .section1_left a {
-    font-family: PT Sans;
-    font-size: 15px;
-    font-weight: 700;
-    line-height: 22.5px;
-    text-align: start;
-  }
-  .contianer main .section-1 .section1_right .img-768px {
-    display: none;
-  }
-  .contianer main .section-1 .section1_right .img-375px {
-    display: block;
-  }
-  .contianer main .section-2 .section2-cards {
-    max-width: 345px;
-    box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.6);
-    width: 100%;
-    gap: 24px;
-    height: auto;
-  }
-  .contianer main .section-2 .section2-cards .section2-card {
-    box-shadow: none;
-  }
-  .contianer main .section-3 {
-    display: none;
-  }
-  .contianer main .section-4 .section-3responsive {
-    display: block;
-    font-family: Exo 2;
-    font-size: 28px;
-    font-weight: 600;
-    line-height: 35px;
-    text-align: left;
-    text-align: start;
-  }
-  .contianer main .section-4 .section-4_cards {
-    gap: 38px;
-    margin-top: 30px;
-  }
-  .contianer main .section-4 .section-4_cards .section-4_card {
-    max-width: 337px;
-    gap: 16px;
-    align-items: start;
-  }
-  .contianer main .section-4 .section-4_cards .section-4_card img {
-    width: 52px;
-    height: 52px;
-  }
-  .contianer main .section-4 .section-4_cards .section-4_card .section-4_card_text {
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-  }
-  .contianer main .section-4 .section-4_cards .section-4_card .section-4_card_text h3 {
-    font-size: 18px;
-    font-weight: 600;
-  }
-  .contianer main .section-4 .section-4_cards .section-4_card .section-4_card_text p {
-    font-size: 15px;
-    font-weight: 400;
-  }
-  .contianer main .section-5 .section5-cads .section5-card .block_768px {
-    display: none;
-  }
-  .contianer main .section-5 .section5-cads .section5-card .block_375px {
-    display: block;
-  }
-  .contianer main .section-5 .section5-cads .section5-card .section5-card-text h3 {
-    font-size: 18px;
-  }
-  .contianer main .section-5 .section5-cads .section5-card .section5-card-text p {
-    font-size: 15px;
-  }
-  .contianer main .section-5 .section5-cads .delete_375px {
-    display: none;
-  }
 }/*# sourceMappingURL=style.css.map */

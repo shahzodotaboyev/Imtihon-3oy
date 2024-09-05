@@ -1,0 +1,346 @@
+@media (max-width:768px) {
+    .contianer {
+        width: 768px;
+        padding: 0;
+
+        main {
+            padding: 117px 40px;
+
+            .section-1 {
+                display: flex;
+                flex-direction: column;
+                gap: 83px;
+
+                .section1_left {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+
+                    h1 {
+                        font-size: 44px;
+                        font-weight: 600;
+                        line-height: 55px;
+                        text-align: center;
+
+                    }
+
+                    p {
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 24px;
+                        text-align: center;
+                        max-width: 690px;
+                        margin: 49px 0 44px 0;
+
+                    }
+
+                }
+
+                .section1_right {
+                    width: 100%;
+
+                    img {
+                        display: none;
+                    }
+
+                    .img-768px {
+                        display: block;
+                    }
+                }
+            }
+
+            .section-2 {
+                .section2-cards {
+                    display: flex;
+                    flex-direction: column;
+                    box-shadow: none;
+                    gap: 16px;
+
+                    .section2-card {
+                        width: 100%;
+                        box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.6);
+                        border-radius: 20px;
+                        padding: 35px;
+                        display: flex;
+                        align-items: center;
+                        gap: 32px;
+
+                        .section2-card-text {
+                            h3 {
+                                font-family: Exo 2;
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 27px;
+                                text-align: left;
+                            }
+
+                            p {
+                                font-family: PT Sans;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 24px;
+                                text-align: left;
+                                color: #6B6B6C;
+                                max-width: 394px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .section-3 {
+                margin-top: 300px;
+                display: flex;
+                align-items: start;
+                justify-content: start;
+
+
+                .track {
+                    max-width: 729px;
+                    height: 383px;
+
+                    .intrack {
+                        max-width: 600px;
+
+                        h1 {
+                            max-width: 288px;
+                            font-size: 44px;
+                            font-weight: 600;
+                            line-height: 55px;
+
+                        }
+                    }
+                }
+            }
+
+            .section-4 {
+                margin-top: 48px;
+
+                .section-4_cards {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    gap: 52px;
+
+                    .section-4_card {
+                        max-width: 537px;
+
+                        p {
+                            max-width: 400px;
+                        }
+                    }
+                }
+            }
+
+            .section-5 {
+                max-width: 768px;
+
+                .section5-cads {
+                    max-width: 690px;
+                    display: flex;
+                    flex-direction: column;
+                    gap: 32px;
+
+                    .section5-card {
+                        max-width: 690px;
+                        width: 100%;
+
+                        height: 422px;
+
+                        img {
+                            display: none;
+                        }
+
+                        .section5-card-text {
+                            h3 {
+                                font-family: Exo 2;
+                                font-size: 20px;
+                                font-weight: 600;
+                                line-height: 27px;
+                                text-align: left;
+
+                            }
+
+                            p {
+                                max-width: 690px;
+                            }
+
+                        }
+
+                        .block_768px {
+                            display: block;
+                        }
+                    }
+
+                    .delete_768px {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:375px) {
+    .contianer {
+        max-width: 375px;
+
+        main {
+            padding: 75px 15px;
+
+            .section-1 {
+                gap: 40px;
+
+
+                .section1_left {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: start;
+
+                    h1 {
+                        font-family: Exo 2;
+                        font-size: 28px;
+                        font-weight: 600;
+                        line-height: 35px;
+                        text-align: left;
+                    }
+
+                    p {
+                        text-align: left;
+                        margin: 32px 0;
+                    }
+
+                    a {
+                        font-family: PT Sans;
+                        font-size: 15px;
+                        font-weight: 700;
+                        line-height: 22.5px;
+                        text-align: start;
+
+                    }
+                }
+
+                .section1_right {
+                    .img-768px {
+                        display: none;
+                    }
+
+                    .img-375px {
+                        display: block;
+                    }
+                }
+            }
+
+            .section-2 {
+                .section2-cards {
+                    max-width: 345px;
+                    box-shadow: 0px 0px 10px 1px rgba(34, 60, 80, 0.6);
+                    width: 100%;
+                    gap: 24px;
+                    height: auto;
+
+                    .section2-card {
+
+                        box-shadow: none;
+                    }
+
+                }
+            }
+
+            .section-3 {
+                display: none;
+            }
+
+            .section-4 {
+
+                .section-3responsive {
+                    display: block;
+                    font-family: Exo 2;
+                    font-size: 28px;
+                    font-weight: 600;
+                    line-height: 35px;
+                    text-align: left;
+                    text-align: start;
+
+                }
+
+                .section-4_cards {
+                    gap: 38px;
+                    margin-top: 30px;
+
+                    .section-4_card {
+                        max-width: 337px;
+                        gap: 16px;
+                        align-items: start;
+
+                        img {
+                            width: 52px;
+                            height: 52px;
+                        }
+
+                        .section-4_card_text {
+                            display: flex;
+                            flex-direction: column;
+                            gap: 12px;
+
+                            h3 {
+                                font-size: 18px;
+                                font-weight: 600;
+                            }
+
+                            p {
+                                font-size: 15px;
+                                font-weight: 400;
+
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            .section-5 {
+                .section5-cads {
+                    .section5-card {
+                        .block_768px {
+                            display: none;
+                        }
+
+                        .block_375px {
+                            display: block;
+                        }
+
+                        .section5-card-text {
+                            h3 {
+                                font-size: 18px;
+                            }
+
+                            p {
+                                font-size: 15px;
+                            }
+                        }
+
+                    }
+
+                    .delete_375px {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+.block_375px{
+    display: none;
+}
