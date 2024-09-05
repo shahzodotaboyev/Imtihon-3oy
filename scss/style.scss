@@ -130,6 +130,45 @@
             }
         }
 
+        .section-3 {
+            max-width: 1240px;
+            height: 453px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .track {
+                width: 100%;
+                height: 100%;
+                background-image: url(../img/Rectangle\ 7.png);
+                margin: auto;
+                background-repeat: no-repeat;
+                background-size: cover;
+
+                .intrack {
+                    width: 769px;
+                    height: 100%;
+                    background-image: url(../img/Rectangle\ 8\ \(3\).png);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    display: flex;
+                    align-items: center;
+                    padding-left: 90px;
+
+                    h1 {
+                        font-family: Exo 2;
+                        font-size: 48px;
+                        font-weight: 600;
+                        line-height: 60px;
+                        text-align: left;
+                        max-width: 352px;
+                        color: #fff;
+
+                    }
+                }
+            }
+        }
+
     }
 }
 
@@ -223,9 +262,50 @@
                     }
                 }
             }
+
+            .section-3 {
+                margin-top: 300px;
+                display: flex;
+                align-items: start;
+                justify-content: start;
+
+
+                .track {
+                    max-width: 729px;
+                    height: 383px;
+                    // margin-right: 1000px;
+                    // display: none;   
+
+                    .intrack {
+                        max-width: 600px;
+
+                        h1 {
+                            max-width: 288px;
+                            font-size: 44px;
+                            font-weight: 600;
+                            line-height: 55px;
+
+                        }
+                    }
+                }
+            }
+            .section-4{
+                .section-3responsive{
+                    display: none;
+                    // color: red;
+                }
+            }
         }
     }
 }
+
+
+
+
+
+
+
+
 
 @media (max-width:375px) {
     .contianer {
@@ -286,11 +366,15 @@
                     height: auto;
 
                     .section2-card {
-                        
+
                         box-shadow: none;
                     }
 
                 }
+            }
+
+            .section-3 {
+                display: none;
             }
         }
     }
